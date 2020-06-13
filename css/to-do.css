@@ -1,0 +1,46 @@
+#nav{
+  margin-top: -5%;
+  color: #ffffff;
+  background:#104E8B; 
+}
+#toggle{
+  color: #ffffff; 
+}
+#header{
+  color: #ffffff;
+  margin-left: 40%;
+}
+#body{
+  width: 50%;
+  height: 100%;
+  background:#104E8B;
+  margin-left:25% ;
+  border-radius: 15px;
+}
+#to{
+  margin-top:-2%;
+  color: #ffffff;
+}
+#date{
+  color:#ffffff;
+}
+#clock{
+  color:#ffffff;
+}
+#view{
+  color:#ffffff;
+}
+#submit{
+  background: #C6E2FF;
+  margin-left: 5%;
+}
+#enter{
+  margin-left: 10%;
+}
+#time{
+  margin-left: 11%;
+}
+#clear{
+  background: #C6E2FF;
+  margin-left: 60%;
+}

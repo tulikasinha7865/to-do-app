@@ -1,0 +1,47 @@
+#card{
+  width: 50%;
+  height: 60%;
+  margin-left: 25%;
+  margin-top: 1%;
+  background:#003F87;
+  border-radius: 15px;
+}
+#sign{
+  text-align: center;
+  color: #ffffff;
+}
+#first{
+  color:#ffffff;
+  margin-left: 25%;
+  font-size: 25px;
+}
+#last{
+  color:#ffffff;
+  margin-left: 15%;
+  font-size: 25px;
+}
+#text{
+  margin-left: 15%;
+}
+#mail{
+  margin-left: 15%;
+}
+#log{
+  background: #ffffff;
+  margin-left: 35%;
+  width: 30%;
+  font-size: 20px;
+}
+#foot{
+  color: #ffffff;
+  margin-left: 25%;
+}
+#reg{
+ color: #C6E2FF;
+  margin-left: 35%;
+}
+#title{
+  color:#ffffff;
+  display: inline;
+  font-size: 25px;
+}

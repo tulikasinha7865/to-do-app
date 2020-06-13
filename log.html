@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <title>TODO APP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="uikit/dist/js/uikit-icons.min.js"></script>
+  <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+
+<link rel="stylesheet" href="css/log.css">
+</head>
+<body>
+
+
+
+<div class="uk-section" id="card">
+    <div class="uk-container uk-container-small">
+      <a href="to-do.html" id="title">Home</a>
+      <h2 class="uk-heading-bullet" id="sign">Sign In</h2>
+      <p id="sign"> Enter your details below to continue</p> 
+  </div>
+ <br><br><br><br>
+
+<form action="process.php" method="POST">
+  <div class="uk-margin">
+    <input class="uk-input uk-width-1-2" type="text" placeholder="E-mail Address" id="user">
+  </div>
+  <div class="uk-margin">
+    <input class="uk-input uk-width-1-2" type="password" placeholder="Password" id="pass">
+  </div>
+  <a href="#" id="for">Forgot Password <span uk-icon="chevron-right"></span></a>
+  <br><br><br>
+  <button class="uk-button" id="log" type="submit">LOGIN</button>
+  <br> <br>
+  <div id="foot">
+    <p>Don't have an account?<a href="register.html" id="reg">Reigster Here</a></p></div>
+</form>
+
+</body>
+</html>

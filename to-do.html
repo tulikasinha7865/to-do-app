@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <title>TODO APP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="uikit/dist/js/uikit-icons.min.js"></script>
+  <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+
+<link rel="stylesheet" href="css/to-do.css">
+</head>
+<body>
+  <div class="uk-section">
+    <nav class="uk-navbar uk-navbar-container uk-margin" id="nav">
+      <div class="uk-navbar-left">
+          <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" id="toggle"></a>
+      </div>
+        <h1 class="uk-heading" id="header"><span>TO DO APP</span></h1>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            <li class="uk-active"><a href="log.html" id="toggle">Sign In</a></li>
+            <li class="uk-active"><a href="register.html" id="toggle">Register</a></li>
+        </ul>
+      </div>
+  </nav>
+  </div>
+  <div class="uk-section" id="body">
+    <div class="uk-container uk-container-small">
+      <h2 class="uk-heading-line uk-text-center" id="to"><span>TO DO TITLE</span></h2>
+      <div class="uk-margin">
+        <textarea class="uk-textarea" rows="2" placeholder="Add your to-do"></textarea>
+    </div>
+    <span class="uk-margin-small-right" uk-icon="calendar" id="date"></span><a href="#" id="date">ADD DATE</a>
+    <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="DD/MM/YYYY" id="enter">
+    <br><br>
+    <span class="uk-margin-small-right" uk-icon="clock" id="clock"></span><a href="#" id="date">SET TIME</a>
+    <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="00:00:00" id="time">
+    <br><br>
+    <span class="uk-margin-small-right" uk-icon="list" id="date"></span><a href="table.html" id="view">VIEW ALL TO-DO</a>
+    </div>
+    <br><br><br>
+    <button class="uk-button uk-button-default" id="submit">SUBMIT</button>
+    <button class="uk-button uk-button-default" id="clear">CLEAR</button>
+</div>
+</body>
+</html>
